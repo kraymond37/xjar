@@ -76,13 +76,13 @@ func main() {
 	// start java application
 	javaPath := os.Args[1]
 	// verify java with SHA-1
-	javaSha1, err := SHA1(javaPath)
-	if err != nil {
-		panic(err)
-	}
-	if bytes.Compare(javaSha1, java.sha1) != 0 {
-		panic(errors.New("invalid java with SHA-1"))
-	}
+	// javaSha1, err := SHA1(javaPath)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// if bytes.Compare(javaSha1, java.sha1) != 0 {
+	// 	panic(errors.New("invalid java with SHA-1"))
+	// }
 
 	args := os.Args[2:]
 	// avoid start error for jdk>8

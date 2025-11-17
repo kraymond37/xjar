@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.xjar</groupId>
+    <groupId>com.github.kraymond37</groupId>
     <artifactId>xjar</artifactId>
-    <version>4.0.4</version>
+    <version>4.0.5</version>
 
     <name>xjar</name>
 
